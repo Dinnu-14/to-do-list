@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <main class="todo-app">
-        <div class="todo-box">
-            <div class="todo-header">
-                <h1>To Do List</h1>
-                <div class="input-group">
-                    <input id="taskInput" type="text" placeholder="Enter a task..." aria-label="Task input">
-                    <button id="addTaskBtn" type="button">Add</button>
-                </div>
-            </div>
-            <ul id="taskList" class="task-list" aria-label="Task list"></ul>
+    <div class="container">
+        <h2>To Do List App</h2>
+        <div class="input-group">
+            <input type="text" id="taskName" placeholder="Task">
+            <button id="btn">Add task</button>
         </div>
-    </main>
+        <ul id="tasklist" class="task-list"></ul>
+    </div>
+    
 </body>
 </html>
